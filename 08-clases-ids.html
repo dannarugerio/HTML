@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clases y ID</title>
+</head>
+<body>
+  <h1>Clases y ID</h1>
+  <p>Las clases ids se utilizan para identificar y agrupar un documeunto html.</p>
+  <p>Nos permiten aplicar estilos o comportamientos específicos a estos elementos.</p>
+
+  <!-- 
+  
+     Atributo ID 
+     
+     Se utiliza para identificar de manera única un elemento de la página. 
+
+     No puede haber más de un elemento con mismo id en una página. 
+
+     Se utiliza para seleccionar un elemento específico en CSS o Javascript.
+
+     id="nombreId"
+  
+  -->
+
+  <h2 id="title-1">Puchunguito ♠</h2>
+  <h2 id="title-2">Cuchurrumina ♣</h2> 
+
+  <style>
+    
+    /* Aqui ecribimos el código CSS */
+
+    #title-1 {
+      /* Aquí las propiedades CSS */
+      color:mediumpurple;
+      font-size: 56px; 
+
+    }
+
+    #title-2 {
+      color:pink;
+      font-size: 36px;
+    }
+
+  </style>
+
+  <!-- 
+
+    Atribuo class
+
+    Se utiliza para agrupar varios elementos bajo un misma clase. 
+
+    A diferencia de los id, podemos usar varios elementos de la página. 
+
+    Sirve para aplicar estilos o comportamientos a un conjunto de elementos que comparten algo en común. 
+
+    class="nombreClase"
+  -->
+
+  <section>
+    <h3 class="subtitle">Subtítulo 1</h3>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet modi vero nemo unde, animi laboriosam excepturi error aliquam odit fugiat. Cum placeat nesciunt quo facilis inventore, corrupti odio voluptates!</p>
+  </section>
+
+  <section>
+    <h3 class="subtitle">Subtítulo 2</h3>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet modi vero nemo unde, animi laboriosam excepturi error aliquam odit fugiat. Cum placeat nesciunt quo facilis inventore, corrupti odio voluptates!</p>
+  </section>
+
+  <section>
+    <h3 class="subtitle">Subtítulo 3</h3>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet modi vero nemo unde, animi laboriosam excepturi error aliquam odit fugiat. Cum placeat nesciunt quo facilis inventore, corrupti odio voluptates!</p>
+  </section>
+
+  <section>
+    <h3 class="subtitle">Subtítulo 4</h3>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet modi vero nemo unde, animi laboriosam excepturi error aliquam odit fugiat. Cum placeat nesciunt quo facilis inventore, corrupti odio voluptates!</p>
+  </section>
+
+  <style>
+
+    .subtitle {
+      color:maroon;
+      font-family:Impact;
+      font-size: 50px;
+      background-color:aliceblue;
+    }
+
+    .paragraph {
+      color:darkslategrey;
+      background-color:aliceblue;
+      font-family: Helvetica; 
+      font-size: 20px; 
+    }
+  </style>
+
+</body>
+</html>
